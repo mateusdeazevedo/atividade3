@@ -5,57 +5,41 @@
       line-height: 1.6;
       background-color: #f4f4f4;
     }
-
-    header,
-    footer {
+    header, footer {
       background-color: #00695c;
       color: white;
       text-align: center;
       padding: 1em;
     }
-
     nav {
       text-align: center;
       margin-top: 1em;
     }
-
     nav a {
       text-decoration: none;
       color: #00695c;
       margin: 0 15px;
       font-weight: bold;
     }
-
     main {
       padding: 2em;
       background-color: white;
       max-width: 1000px;
       margin: auto;
     }
-
     figure {
       text-align: center;
       margin: 2em 0;
     }
-
     figure img {
       max-width: 100%;
       height: auto;
       border-radius: 8px;
     }
-
     figcaption {
       margin-top: 0.5em;
       font-style: italic;
     }
-
     footer p {
       margin: 0.3em 0;
-    }
-
-    .logo {
-      max-width: 120px;
-      height: auto;
-      display: block;
-      margin: 0 auto 10px;
     }
