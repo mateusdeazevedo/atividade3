@@ -1,0 +1,16 @@
+.cabeçalho {
+    background-color:rgb(245, 245, 245);
+    font-size: 30px;
+    text-align: justify;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    height: 120px;
+}
+
+.doar {
+    padding: 5px;
+    background-color: #00695c;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
