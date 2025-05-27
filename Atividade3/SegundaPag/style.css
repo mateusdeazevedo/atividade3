@@ -1,16 +1,74 @@
-.cabeçalho {
-    background-color:rgb(245, 245, 245);
-    font-size: 30px;
-    text-align: justify;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    display: flex;
-    height: 120px;
-}
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: white;
+    }
 
-.doar {
-    padding: 5px;
-    background-color: #00695c;
-    text-align: center;
-    font-size: 25px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
+    header {
+      background-color: #00695c;
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 200px;
+      margin-right: 15px;
+    }
+
+    .titulo-topo {
+      font-size: 50px;
+      font-weight: bold;
+    }
+
+    main {
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    main h1 {
+        font-size: 35px;
+      color: #00695c;
+      text-align: justify;
+      margin-bottom: 20px;
+    }
+
+    main p {
+        font-size: 30px;
+      text-align: justify;
+      line-height: 1.5;
+      margin-bottom: 16px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    footer {
+      background-color: #00695c;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
+    }
+
+    .footer-links a {
+      color: white;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+    .creditos {
+      font-size: 0.85em;
+      margin-top: 10px;
+      color: #ffffffcc;
+    }
